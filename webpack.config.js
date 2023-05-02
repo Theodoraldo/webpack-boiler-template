@@ -12,4 +12,12 @@ module.exports = {
       title: 'Output Management',
     }),
   ],
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
 };
